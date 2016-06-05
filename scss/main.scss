@@ -1,0 +1,44 @@
+@import 'var';
+@import 'color';
+@import 'module/slider';
+@import 'module/nav';
+@import 'module/footer';
+@import 'module/item';
+
+
+@media (min-width: 1200px) {
+    .container
+    {
+        max-width: 970px;
+    }
+}
+
+body {
+  	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    line-height: 17px;
+    word-wrap: break-word;
+    color: $text-color;
+    background-color: $background-color;
+}
+
+html,body 
+{
+	height: 100%;
+}
+
+* {
+	margin: 0;
+}
+
+
+.center-block 
+{
+    display: table;
+    margin: 0 auto;
+}
+.text-center 
+{
+   text-align:center
+}
