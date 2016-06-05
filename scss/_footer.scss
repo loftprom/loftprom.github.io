@@ -1,0 +1,28 @@
+.footer
+{
+	margin-top: 100px;
+	height: $footer-height;
+	width: 100%;
+	background-color: $footer-color;
+    .wrapper
+    {
+    	padding-top: 17px;
+    }
+    .text 
+    {
+    	padding-top: 20px;
+    	color: $white-text;
+    }
+    .social-network
+    {
+    	div
+    	{
+    		float: left;
+    		padding-left: 10px;
+    		padding-right: 10px;
+    	}
+    }
+}
+
+
+

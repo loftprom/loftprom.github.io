@@ -1,0 +1,30 @@
+.item-block
+{
+	padding-top: 30px;
+    display: table-cell;
+	text-align: center;
+	.header 
+	{
+		padding-bottom: 40px;
+	}
+	.item
+	{
+		background-color: $item-backbround;
+		height: 284px;
+		width: 227px;
+	    display: table-cell;
+	    text-align: center;
+	    vertical-align: middle;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	ul
+	{
+		list-style-type: disc;
+		font-weight: 300;
+		font-size: 12px;
+        line-height: 14px;
+        text-align: left;
+        font-family: ubuntu, sans-serif;
+	}
+}
